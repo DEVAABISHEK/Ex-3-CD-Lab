@@ -1,5 +1,6 @@
 # Ex-3-RECOGNITION-OF-A-VALID-ARITHMETIC-EXPRESSION-THAT-USES-OPERATOR-AND-USING-YACC
 
+# Name : DEVA ABISHEK P
 # Register Number : 212223110008
 # Date: 15/9/2025
 
@@ -15,6 +16,9 @@ To write a yacc program to recognize a valid arithmetic expression that uses ope
 7.	Compile these with the C compiler as gcc lex.yy.c y.tab.c
 8.	Enter an arithmetic expression as input and the tokens are identified as output.
 # PROGRAM
+
+
+
 ## L file
 ```
 %{
@@ -32,6 +36,7 @@ digit   [0-9]
 %%
 int yywrap() { return 1; }
 ```
+
 
 ## Y file
 ```
